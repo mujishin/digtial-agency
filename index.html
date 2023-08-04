@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digincy Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/faviocons.png">
+</head>
+<body>
+
+<!--nav-bar start-->
+<div class="background-section px-4">
+<nav class="navbar navbar-expand-lg navbar-light  px-5 py-3 fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/digincynav-logo.png" alt="" width="170" height="60">
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+        <form class="d-flex gap-3">
+          <button class="btn btn-login px-3 py-2" type="submit">SIGN UP</button>
+          <button class="btn btn-signin px-3 py-2" type="submit">LOGIN</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!--nav-bar end-->
+
+<!--carosal-slider start-->
+<div class="carosal-section bg-light mx-5">
+<div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators justify-content-end">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                  <div class="row">
+                      <div class="col-lg-6">
+                  <img src="./assets/img/slider-1.png" class="d-block w-100" alt="image">
+              </div>
+              <div class="col-lg-6">
+                  <div class="carousel-caption text-start  mx-auto d-md-block">
+                    <h4>WE LOVE TO CREATE</h4>
+                      <h2>Creative & <br>Digital ideas</h2>
+                      <button class="btn btn-fill my-4" type="submit">GET STARTED <iconify-icon icon="ph:arrow-right"></iconify-icon></button>
+                  </div>
+              </div>
+              </div>
+              </div>
+             
+              <div class="carousel-item">
+                  <div class="row">
+                      <div class="col-lg-6">
+                  <img src="./assets/img/slider-2.png" class="d-block w-100" alt="image">
+              </div>
+              <div class="col-lg-6">
+                  <div class="carousel-caption text-start  mx-auto d-md-block">
+                    <h4>WE LOVE TO CREATE</h4>
+                    <h2>Creative & <br>Digital ideas</h2>
+                    <button class="btn btn-fill my-4" type="submit">GET STARTED <iconify-icon icon="ph:arrow-right"></iconify-icon></button>
+                  </div>
+              </div>
+              </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-6">
+                <img src="./assets/img/slider-3.png" class="d-block w-100" alt="image">
+            </div>
+            <div class="col-lg-6">
+                <div class="carousel-caption text-start  mx-auto d-md-block">
+                  <h4>WE LOVE TO CREATE</h4>
+                      <h2>Creative & <br>Digital ideas</h2>
+                      <button class="btn btn-fill my-4" type="submit">GET STARTED <iconify-icon icon="ph:arrow-right"></iconify-icon></button>
+                </div>
+            </div>
+            </div>
+            </div>
+              
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+</div>
+<!--carosal-slider start-->
+
+<!--features-section start-->
+<div class="features-section">
+  <div class="container">
+<div class="features-headers text-center">
+  <h5>OUR FEATURES</h5>
+  <h2>Behind The Story Of Creative<br> Digital Agency</h2>
+</div>
+<div class="row">
+  <div class="col-lg-4 col-md-6 ">
+    <div class="feature-box mx-1 text-center">
+      <h4 class="py-2">Design</h4>
+      <iconify-icon icon="gg:if-design"></iconify-icon>
+      <p class="pt-2">Particular boisterous uncommonly. Early wrong as so manor match. Him necessary shameless discovery consulted one.</p>
+      <button class="btn btn-fill my-4" type="submit">LEARN MORE</button>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 ">
+    <div class="feature-box mx-1 text-center">
+      <h4 class="py-2">Development</h4>
+      <iconify-icon icon="gg:if-design"></iconify-icon>
+      <p class="pt-2">Particular boisterous uncommonly. Early wrong as so manor match. Him necessary shameless discovery consulted one.</p>
+      <button class="btn btn-fill my-4" type="submit">LEARN MORE</button>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 ">
+    <div class="feature-box mx-1 text-center">
+      <h4 class="py-2">Implement</h4>
+      <iconify-icon icon="gg:if-design"></iconify-icon>
+      <p class="pt-2">Particular boisterous uncommonly. Early wrong as so manor match. Him necessary shameless discovery consulted one.</p>
+      <button class="btn btn-fill my-4" type="submit">LEARN MORE</button>
+    </div>
+  </div>    
+</div>
+</div>
+</div>
+</div>
+<!--features-section end-->
+
+<!--about-section start-->
+<div class="features-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="abt-img">
+          <img src="./assets/img/about-img.png" alt="">
+        </div>
+        <!-- <div class="counter-card py-5">
+          <span data-purecounter-start="0" data-purecounter-end="99" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Teachers</p>
+        </div> -->
+      </div>
+      <div class="col-lg-6">
+        <div class="about-heading align-content-center">
+          <h2 class="py-3">Developing powerful brands & business identities</h2>
+          <p>Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur.</p>
+        <div class="about-content d-flex">
+          <div class="abt-icon">
+            <iconify-icon icon="mdi:tick-decagram"></iconify-icon>
+          </div>
+          <div class="abt-text">
+            <h4>Highest Success Rates</h4>
+            <p>Resolved entrance together graceful. Mrs assured add private married removed believe did she regret wished an branch</p>
+          </div>
+        </div>  
+
+        <div class="about-content d-flex">
+          <div class="abt-icon">
+            <iconify-icon icon="mdi:tick-decagram"></iconify-icon>
+          </div>
+          <div class="abt-text">
+            <h4>Highest Success Rates</h4>
+            <p>Resolved entrance together graceful. Mrs assured add private married removed believe did she regret wished an branch</p>
+          </div>
+        </div>
+        
+        </div>
+        <h2></h2>
+      </div>
+    </div>
+  </div>
+</div>    
+<!--about-section end-->
+
+
+<!--EXPERTS IN FIELD-section start-->
+<div class="features-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h5>EXPERTS IN FIELD</h5>
+        <h2 class="py-3">Developing powerful brands & business identities</h2>
+        <p>Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur.</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="progress-bar-content px-5">
+        <h4 class="py-2">Marketing</h4>
+        <div class="progress mb-5">
+          <div class="progress-bar progress-bar-success" style="width: 65%;">65%</div>
+        </div>
+        <h4 class="py-2">Marketing</h4>
+        <div class="progress mb-5">
+          <div class="progress-bar progress-bar-success" style="width: 45%;">65%</div>
+        </div>
+        <h4 class="py-2">Marketing</h4>
+        <div class="progress mb-5">
+          <div class="progress-bar progress-bar-success" style="width: 95%;">65%</div>
+        </div>
+      </div>
+  </div>
+  </div>
+  </div>
+<!--EXPERTS IN FIELD-section end-->
+
+
+<!--CTA-section start-->
+<div class="cta-banner my-5">
+  <!-- <img src="./assets/img/CTA banner.png" class="img-fluid w-100" alt=""> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 offset-lg-5">
+        <div class="cta-contents p-5">
+          <h2 class="text-light py-3">We Create digital products That Make people’s Lives More Easier.</h2>
+          <p style="color: #cccccc;" class="py-2">Common indeed ga rden you his ladies out yet. Preference imprudence contrasted to remarkably in on. Taken now you him trees tears any. Her object giving end sister except oppose. Whatever throwing we on resolved entrance together graceful. Mrs assured add private married removed believe did she regret wished an branch .</p>
+          <div class="avatars d-flex">
+            <div class="avatar-1 pe-5 py-2">
+            <h4 class="text-light">Innovative Business</h4>
+            <p style="color: #cccccc;">Easy to customize</p>
+          </div>
+          <div class="avatar-2 ps-5 ">
+            <h4 class="text-light">Innovative Business</h4>
+            <p style="color: #cccccc;">Easy to customize</p>
+          </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CTA-section end-->
+
+
+<!--service-section start-->
+<div class="service-section py-5 my-5">
+  <div class="container">
+  <div class="inner-items my-5">
+    <div class="row align-items-center">
+    <div class="col-lg-5 ">
+      <div class="service-headers">
+      <h5>EXPERTS IN FIELD</h5>
+        <h2 class="py-3">Developing powerful brands & business identities</h2>
+        <p>Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur.</p>
+        <button class="btn btn-outline my-4" type="submit">LEARN MORE</button>
+    </div>
+  </div>
+  <div class="col-lg-7">
+    <div class="service-items px-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-grid-1">
+          <div class="service-box-active my-5">
+            <div class="icon">
+              <iconify-icon icon="solar:folder-with-files-outline"></iconify-icon>
+              <h4 class="py-3">Data Tracking</h4>
+              <p>Abode words began enjoy years no do no. Tried spoil as heart visit.</p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="icon">
+              <iconify-icon icon="mdi:account-cash"></iconify-icon>
+              <h4 class="py-3">Press Releases</h4>
+              <p>Abode words began enjoy years no do no. Tried spoil as heart visit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-grid ">
+          <div class="service-box my-5">
+            <div class="icon">
+              <iconify-icon icon="ic:baseline-diversity-3"></iconify-icon>
+              <h4 class="py-3">Branding</h4>
+              <p>Abode words began enjoy years no do no. Tried spoil as heart visit.</p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="icon">
+              <iconify-icon icon="nimbus:marketing"></iconify-icon>
+              <h4 class="py-3">Marketing</h4>
+              <p>Abode words began enjoy years no do no. Tried spoil as heart visit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+<!--service-section end-->
+
+
+<!--project-section start-->
+<div class="background-section">
+<div class="project-section py-5 my-5">
+    <div class="project-headers text-center">
+      <h5 class="py-3 ">OUR WORKS</h5>
+      <h2>Our Recent & popular awesome<br>completed projects</h2>
+    </div>
+    <div class="container-full">
+      <div class="home-demo">
+        <div class="owl-carousel owl-theme">
+          <div class="owel-item" style="width:348.333px; margin-right: 50px;">
+            <div class="item">
+              <img src="./assets/img/Rectangle 19.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="owel-item" style="width:348.333px; margin-right: 50px;">
+            <div class="item">
+              <img src="./assets/img/Rectangle 20.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="owel-item" style="width:348.333px; margin-right: 50px;">
+            <div class="item">
+              <img src="./assets/img/Rectangle 21.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="owel-item" style="width:348.333px; margin-right: 50px;">
+            <div class="item">
+              <img src="./assets/img/Rectangle 22.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="owel-item" style="width:348.333px; margin-right: 50px;">
+            <div class="item">
+              <img src="./assets/img/owel-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="owel-item" style="width:348.333px; margin-right: 50px;">
+            <div class="item">
+              <img src="./assets/img/owel-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="owel-item" style="width:348.333px; margin-right: 50px;">
+            <div class="item">
+              <img src="./assets/img/owel-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<!--project-section start-->
+
+
+<!--client-section start-->
+<div class="client-section py-5 my-5">
+  <div class="container-full">
+    <div class="row">
+      <div class="col-md-6 info pl-5">
+        <div class="client-headers">
+        <h2 class="py-3 text-light">Since 1964 We Worked For 10,000+ Worldwide Clients</h2>
+        <p class="text-light">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor. Him had wound use found hoped.</p>
+        <button class="btn btn-fill my-4" type="submit">ALL BRANDS</button>
+      </div>
+    </div>
+    <div class="col-md-6 brand pr-5">
+      <div class="client-box d-flex align-items-center justify-content-center pb-4">
+        <div class="client-logo">
+          <img src="./assets/img/Angular.png" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="./assets/img/Blackberry.png" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="./assets/img/Amazon.png" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="./assets/img/Codepen.png" alt="">
+        </div>
+      </div>
+      <div class="client-box d-flex align-items-center justify-content-center">
+        <div class="client-logo">
+          <img src="./assets/img/Woocommerce.png" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="./assets/img/dropbox.png" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="./assets/img/Reddit.png" alt="">
+        </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+<!--client-section end-->
+
+
+<!--blog-section start-->
+<div class="blog-section py-5 ">
+  <div class="container">
+    <div class="blog-section-headers text-center">
+      <h5 class="py-3 ">LATEST BLOG</h5>
+      <h2>Most Popular Breaking News &<br>Top Stories</h2> 
+    </div>
+    <div class="row py-5 px-5">
+      <div class="col-lg-4 col-md-6">
+        <div class="blog-box">
+          <div class="card">
+            <img src="./assets/img/Rectangle 34.png" alt="">
+            <div class="card-category"><h6>10, July 2023</h6></div>
+            <div class="card-description">
+              <h4 class="text-light">The for fully had she there leave merit enjoy forth.</h4>
+              <div class="autors d-flex gap-3 align-items-center pt-3">
+                <div class="avatar-round"><img src="./assets/img/av1.png" alt=""></div>
+                <h5 class="text-light"> BY JOHN BAUS - IN CREATIVE</h5>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="blog-boxs">
+          <div class="blog-dates"><h6>10, July 2023</h6></div>
+          <h4 class=" py-4">The for fully had she there leave merit enjoy forth.</h4>
+          <p class="pb-3">Coming merits and was talent enough far. Sir joy northward sportsmen education. Discovery incommode earnestly no he commanded if. Put still any about manor. Estimable me disposing of be moonlight cordially curiosity.</p>
+          <div class="autors d-flex gap-3 align-items-center pt-3">
+            <div class="avatar-round"><img src="./assets/img/av1.png" alt=""></div>
+            <h5> BY JOHN BAUS - IN CREATIVE</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="blog-box">
+          <div class="card">
+            <img src="./assets/img/Rectangle 32.png" alt="">
+            <div class="card-category"><h6>10, July 2023</h6></div>
+            <div class="card-description">
+              <h4 class="text-light">The for fully had she there leave merit enjoy forth.</h4>
+              <div class="autors d-flex gap-3 align-items-center pt-3">
+                <div class="avatar-round"><img src="./assets/img/av1.png" alt=""></div>
+                <h5 class="text-light"> BY JOHN BAUS - IN CREATIVE</h5>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--blog-section end-->
+
+
+<!--footer-section start-->
+<div class="footer-section">
+  <div class="container">
+    <div class="footer-contents">
+      <div class="row">
+        <div class="col-lg-5 col-md-6">
+          <div class="footer-about">
+            <img src="./assets/img/Digital-1 (1) 1.png" alt="">
+            <p class="py-4">Required honoured trifling eat pleasure man relation. Assurance yet bed was improving furniture man. Distrusts delighted Excuse few the remain highly feebly add people manner say. It high at my mind by roof.</p>
+            <div class="footer-socials">
+              <ul>
+                <li><iconify-icon icon="ri:facebook-fill"></iconify-icon></li>
+                <li><iconify-icon icon="mdi:twitter"></iconify-icon></li>
+                <li><iconify-icon icon="ri:linkedin-fill"></iconify-icon></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+          <div class="footer-company">
+            <h4 class="text-light pb-3">SERVICES</h4>
+              <ul>
+                <li>SEO Marketing</li>
+                <li>Pay Per Click</li>
+                <li>SEO Services</li>
+                <li>Social Media</li>
+                <li>SEO Audit</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="footer-company">
+              <h4 class="text-light pb-3">COMPANY</h4>
+                <ul>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li>Career</li>
+                  <li>Terms</li>
+                  <li>Team Members</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-company">
+                <h4 class="text-light pb-3">CONTACT US</h4>
+                  <ul>
+                    <li><h5 class="text-light">ADDRESS</h5></li>
+                    <P>jp nager, banaluru, karnataka</P>
+                    <li><h5 class="text-light">EMAIL</h5></li>
+                    <P>aswinash404@gmail.com</P>
+                    <li><h5 class="text-light">PHONE</h5></li>
+                    <P>+91 9878656724</P>
+                  </ul>
+                </div>
+              </div>
+         </div>
+         <div class="copyrights">
+          <p class="text-light text-center pt-5 mt-5">&copy; Copyrights 2023   Digincy By McDESIGNZ</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer-section end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
